@@ -2134,8 +2134,8 @@ video {
     display: flex;
   }
 
-  .max-md\:h-\[60vh\] {
-    height: 60vh;
+  .max-md\:h-\[15vh\] {
+    height: 15vh;
   }
 
   .max-md\:w-\[350px\] {
@@ -2202,6 +2202,10 @@ video {
   .max-sm\:leading-\[30px\] {
     line-height: 30px;
   }
+
+  .max-sm\:leading-\[60px\] {
+    line-height: 60px;
+  }
 }
 
 @media not all and (min-width: 480px) {
@@ -2235,6 +2239,14 @@ video {
 
   .max-ht\:text-\[20px\] {
     font-size: 20px;
+  }
+
+  .max-ht\:leading-\[\] {
+    line-height: ;
+  }
+
+  .max-ht\:leading-\[60px\] {
+    line-height: 60px;
   }
 }
 
